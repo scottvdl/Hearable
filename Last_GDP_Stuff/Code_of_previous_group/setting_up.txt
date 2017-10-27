@@ -1,0 +1,8 @@
+1) Download and write Raspbian .img to SD card.
+2) In order to enable HDMI out, uncomment set the following lines in the config.txt file:
+hdmi_safe=1 # Disables safe mode
+hdmi_force_hotplug=1 # Use HDMI mode even if no HDMI monitor is detected
+hdmi_group=2 # Set HMDI type to DMT (set to 1 for CEA, and 0 to allow the preferred group to be reported by the monitor)
+hdmi_mode=1 # Defines resolution
+3) Plug in Wi Pi and ethernet cable.
+4) Download and install wicd.
